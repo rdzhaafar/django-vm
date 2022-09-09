@@ -1,0 +1,9 @@
+db.sqlite3
+
+.DS_Store
+.localized
+
+venv
+__pycache__
+
+run
