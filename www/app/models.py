@@ -11,7 +11,7 @@ class FileField(models.FileField):
 
 
 class SomeFile(models.Model):
-    file = models.FileField("Some file")
+    file = FileField("Some file")
 
     def basename(self):
         return path.basename(self.file.name)
